@@ -51,9 +51,12 @@ Requirements:
 3.	OpenCV (CV2)
 4.	NumPy
 5.	PIL (Python Imaging Library)
-   
+6. Tensorflow
+7. Keras
+8. Roboflow for Object detection - YOLO
+
 Results:
 
 1.	YOLOv8 achieves accurate region identification in ultrasound images.
-2.	UNet provides precise segmentation of the nuchal fold tissue.
+2.	UNet provides precise segmentation of the nuchal fold tissue with accuracy: 0.9948 - val_loss: 0.0257 - val_accuracy: 0.9949.
 3.	CV2 accurately measures the Nuchal Translucency (NT) for prenatal screening.
